@@ -8,6 +8,13 @@
 
 #import <Foundation/Foundation.h>
 
+
 @interface JWPDF : NSObject
+
++ (CGPDFDocumentRef)documentWithData:(NSData *)data;
++ (CGPDFDocumentRef)documentWithName:(NSString *)name;
++ (CGPDFDocumentRef)documentWithPath:(NSString *)path;
+
++ (void)logTitleOfDocument:(CGPDFDocumentRef)documentRef;
 
 @end

@@ -16,6 +16,9 @@
 		BD9D6DBA17038B3100EA54E3 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = BD9D6DB917038B3100EA54E3 /* Default.png */; };
 		BD9D6DBC17038B3100EA54E3 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD9D6DBB17038B3100EA54E3 /* Default@2x.png */; };
 		BD9D6DBE17038B3100EA54E3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD9D6DBD17038B3100EA54E3 /* Default-568h@2x.png */; };
+		BD9D6DC717038B6200EA54E3 /* example.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BD9D6DC617038B6200EA54E3 /* example.pdf */; };
+		BD9D6DCA17038B8000EA54E3 /* JWPDF.m in Sources */ = {isa = PBXBuildFile; fileRef = BD9D6DC917038B8000EA54E3 /* JWPDF.m */; };
+		BD9D6DCC17038B9C00EA54E3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD9D6DCB17038B9C00EA54E3 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +35,10 @@
 		BD9D6DB917038B3100EA54E3 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		BD9D6DBB17038B3100EA54E3 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		BD9D6DBD17038B3100EA54E3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		BD9D6DC617038B6200EA54E3 /* example.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = example.pdf; sourceTree = "<group>"; };
+		BD9D6DC817038B8000EA54E3 /* JWPDF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWPDF.h; sourceTree = "<group>"; };
+		BD9D6DC917038B8000EA54E3 /* JWPDF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWPDF.m; sourceTree = "<group>"; };
+		BD9D6DCB17038B9C00EA54E3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD9D6DCC17038B9C00EA54E3 /* QuartzCore.framework in Frameworks */,
 				BD9D6DA817038B3100EA54E3 /* UIKit.framework in Frameworks */,
 				BD9D6DAA17038B3100EA54E3 /* Foundation.framework in Frameworks */,
 				BD9D6DAC17038B3100EA54E3 /* CoreGraphics.framework in Frameworks */,
@@ -68,6 +76,7 @@
 		BD9D6DA617038B3100EA54E3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BD9D6DCB17038B9C00EA54E3 /* QuartzCore.framework */,
 				BD9D6DA717038B3100EA54E3 /* UIKit.framework */,
 				BD9D6DA917038B3100EA54E3 /* Foundation.framework */,
 				BD9D6DAB17038B3100EA54E3 /* CoreGraphics.framework */,
@@ -81,6 +90,8 @@
 				BD9D6DB617038B3100EA54E3 /* NGAppDelegate.h */,
 				BD9D6DB717038B3100EA54E3 /* NGAppDelegate.m */,
 				BD9D6DAE17038B3100EA54E3 /* Supporting Files */,
+				BD9D6DC817038B8000EA54E3 /* JWPDF.h */,
+				BD9D6DC917038B8000EA54E3 /* JWPDF.m */,
 			);
 			path = JWPDF;
 			sourceTree = "<group>";
@@ -88,6 +99,7 @@
 		BD9D6DAE17038B3100EA54E3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BD9D6DC617038B6200EA54E3 /* example.pdf */,
 				BD9D6DAF17038B3100EA54E3 /* JWPDF-Info.plist */,
 				BD9D6DB017038B3100EA54E3 /* InfoPlist.strings */,
 				BD9D6DB317038B3100EA54E3 /* main.m */,
@@ -155,6 +167,7 @@
 				BD9D6DBA17038B3100EA54E3 /* Default.png in Resources */,
 				BD9D6DBC17038B3100EA54E3 /* Default@2x.png in Resources */,
 				BD9D6DBE17038B3100EA54E3 /* Default-568h@2x.png in Resources */,
+				BD9D6DC717038B6200EA54E3 /* example.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +180,7 @@
 			files = (
 				BD9D6DB417038B3100EA54E3 /* main.m in Sources */,
 				BD9D6DB817038B3100EA54E3 /* NGAppDelegate.m in Sources */,
+				BD9D6DCA17038B8000EA54E3 /* JWPDF.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
